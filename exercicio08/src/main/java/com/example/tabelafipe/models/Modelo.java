@@ -1,4 +1,4 @@
-package com.example.tabelafipe;
+package com.example.tabelafipe.models;
 public class Modelo {
     private String codigo;
     private String nome;

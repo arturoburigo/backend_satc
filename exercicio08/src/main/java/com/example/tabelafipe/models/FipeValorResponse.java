@@ -1,23 +1,23 @@
 package com.example.tabelafipe.models;
 
-public class FipeResponse {
-    private String valor;
-    private String mesReferencia;
+public class FipeValorResponse {
+    private double valor;
+    private String mes;
 
-    // Getters e Setters
-    public String getValor() {
+    // Getters e setters
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(String valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 
-    public String getMesReferencia() {
-        return mesReferencia;
+    public String getMes() {
+        return mes;
     }
 
-    public void setMesReferencia(String mesReferencia) {
-        this.mesReferencia = mesReferencia;
+    public void setMes(String mes) {
+        this.mes = mes;
     }
 }

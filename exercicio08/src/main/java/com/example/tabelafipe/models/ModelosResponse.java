@@ -1,4 +1,4 @@
-package com.example.tabelafipe;
+package com.example.tabelafipe.models;
 
 import java.util.List;
 
