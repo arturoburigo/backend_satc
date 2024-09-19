@@ -3,7 +3,7 @@ package com.example.tabelafipe.models;
 public class CarroRequest {
     private String marca;
     private String modelo;
-    private int ano;
+    private String ano;
 
     // Getters e setters
     public String getMarca() {
@@ -22,11 +22,11 @@ public class CarroRequest {
         this.modelo = modelo;
     }
 
-    public int getAno() {
+    public String getAno() {
         return ano;
     }
 
-    public void setAno(int ano) {
+    public void setAno(String ano) {
         this.ano = ano;
     }
 }

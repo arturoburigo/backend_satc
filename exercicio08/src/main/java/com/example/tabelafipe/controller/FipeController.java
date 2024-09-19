@@ -35,6 +35,8 @@ public class FipeController {
             throw new IllegalArgumentException("Ano não encontrado.");
         }
 
-        return fipeService.getValor(marcaCodigo, modeloCodigo, anoCodigo);
+        FipeValorResponse response = fipeService.getValor(marcaCodigo, modeloCodigo, anoCodigo);
+        System.out.println("Fipe Valor Response: " + response);
+        return response;
     }
 }
